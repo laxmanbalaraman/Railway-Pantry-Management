@@ -1,0 +1,153 @@
+body{
+  margin: 0;
+  padding: 0;
+  font-family: Roboto;
+  font-size: 20px;
+}
+html{
+  scroll-behavior: smooth;
+}
+.intro{
+background-image: linear-gradient(to bottom, rgba(0,0,0,2),rgba(25,148,55,0.3)), url(../images/bg2.jpg);
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: cover;
+height: 100%;
+width: 100%;
+color: white;
+text-align: center;
+}
+.navbar{
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+  transition: background-color 0.4s ease-out;
+  background: transparent;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+display: inline-block;
+}
+
+.navbar li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 26px;
+  text-decoration: none;
+}
+
+.navbar li a:hover {
+  color: #00ff44;
+}
+.intro h1{
+  letter-spacing: 5px;
+  color:#15d448;
+}
+.active {
+  margin-left: 50px;
+  color: #00ff44;
+}
+.btn{
+  background-color: transparent;
+  border: 1px solid white;
+  cursor: pointer;
+  color: white;
+  padding: 15px 36px;
+  margin-top: 40px;
+  font-size: 0.9em;
+  border-radius: 30px;
+
+}
+.btn:hover{
+  background: white;
+  transition: 0.3s ease-in;
+  color: black;
+}
+
+.navbar li i{
+  margin: 0 10px 0 10px;
+}
+
+.nav-colored { background-color:#4CAF50;
+ }
+.nav-transparent { background-color:transparent;}
+.container{
+  padding: 30px;
+  height:  500px;
+
+}
+.parent{
+  display: flex;
+}
+.heading{
+      content: ""; /* This is necessary for the pseudo element to work. */
+      margin: 0 auto; /* This will center the border. */
+      width: 25%; /* Change this to whatever width you want. */
+      border-bottom: 2px solid #4CAF50; /* This creates the border. Replace black with whatever color you want. */
+  }
+.child-2 p{
+padding: 50px;
+}
+.child-1 {
+  padding: 20px 50px;
+}
+.icon{
+  font-size: 100px;
+  color:#4CAF50;
+  text-align: center;
+}
+.services{
+  padding: 20px 100px;
+  background: #f7f7f7;
+}
+.parent {
+    display: flex;
+    justify-content: space-between;
+}
+.flex-1{
+  padding: 75px 15px 10px 15px ;
+}
+.caption p{
+  text-align: justify;
+  font-size: 15px;
+}
+.caption h3{
+  text-align: center;
+}
+.main{
+  padding: 25px;
+  text-align: center;
+}
+.address a{
+  text-decoration: none;
+  color: #4CAF50;
+}
+.address{
+border: 1px solid #4CAF50;
+padding: 10px;
+border-radius: 0px 10px 10px  0px;
+}
+.logo li{
+  list-style: none;
+}
+.logo a{
+  text-decoration: none;
+  color:White;
+}
+.logo i{
+  font-size: 50px;
+  margin: 10px 30px;
+  padding: 10px;
+  color:#4CAF50;
+  transition: 0.3s ease-in;
+}
+.logo i:hover{
+border-bottom: 3px solid #4CAF50;
+transform: scale(1.2);
+}

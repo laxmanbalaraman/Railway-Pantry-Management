@@ -1,0 +1,245 @@
+
+{
+    box-sizing: border-box;
+}
+
+body
+{
+    background: url(../images/5n.jpg) no-repeat;
+    background-size: cover;
+    background-attachment:fixed;
+    font-family: 'Open Sans',sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.container
+{
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+    overflow: hidden;
+    width: 400px;
+    max-width: 100%;
+}
+
+.header
+{
+    background-color: #f7f7f7;
+    border-bottom: 1px solid #f0f0f0;
+    padding: 20px 40px;
+}
+
+.header h2
+{
+    color: #4caf50;
+    margin: 0;
+    border-bottom: 6px solid #4caf50;
+}
+
+.form
+{
+    padding: 30px 40px;
+}
+
+.form-control
+{
+    margin-bottom: 10px;
+    padding-bottom: 20px;/* so that space is there for displaying error message */
+    position: relative;
+}
+
+.form-control label
+{
+    display: inline-block;/* margin like thing gives a structure to the label ie., the box of registration */
+    margin-bottom: 5px;
+}
+.form-control input
+{
+    border: 2px solid #f0f0f0;
+    border-radius: 4px;
+    display: block;
+    font-family: inherit;
+    font-size: 14px;
+    padding: 10px;
+    width: 100%;
+}
+
+.form button
+{
+    background-color: cornflowerblue;
+    border: 2px solid cornflowerblue;
+    border-radius: 4px;
+    color: antiquewhite;
+    display: block;
+    font-size: 16px;
+    font-family: inherit;
+    padding: 10px;
+    cursor: pointer;
+}
+.form button:hover
+{
+    color: gold;
+    background-color: darkgrey;
+}
+select
+{
+ background-color: gainsboro;
+    border: 2px solid gainsboro;
+    border-radius: 4px;
+    color: black;
+    display: block;
+    font-size: 16px;
+    font-family: inherit;
+    padding: 10px;
+
+}
+td.PD
+{
+    background-color: skyblue;
+    height:50px;
+    width: 400px;
+    color: royalblue;
+}
+td.info
+{
+    background-color: skyblue;
+    height:50px;
+    width: 400px;
+    color: royalblue;
+    font-size: 13px;
+}
+td.TC
+{
+    border: 2px solid gainsboro;
+    border-radius: 4px;
+    display: block;
+    font-family: inherit;
+    font-size: 14px;
+    padding: 10px 132px 10px 15px;
+    width: 100%;
+    background-color: gainsboro;
+}
+#errorpassword
+{
+    border-left: none;
+    border-bottom: none;
+    border-top: none;
+    border-right: none;
+    outline: none;
+    cursor: auto;
+    width: 390px;
+}
+#errorcpassword
+{
+    border-left: none;
+    border-bottom: none;
+    border-top: none;
+    border-right: none;
+    outline: none;
+    cursor: auto;
+    width: 390px;
+}
+#username
+{
+    border-left: none;
+    border-bottom: none;
+    border-top: none;
+    border-right: none;
+    outline: none;
+    cursor: auto;
+    width: 390px;
+}
+#securityanswer
+{
+    border-left: none;
+    border-bottom: none;
+    border-top: none;
+    border-right: none;
+    outline: none;
+    cursor: auto;
+    width: 390px;
+}
+#fname
+{
+    border-left: none;
+    border-bottom: none;
+    border-top: none;
+    border-right: none;
+    outline: none;
+    cursor: auto;
+    width: 390px;
+}
+#state
+{
+    border-left: none;
+    border-bottom: none;
+    border-top: none;
+    border-right: none;
+    outline: none;
+    cursor: auto;
+    width: 390px;
+}
+#fi
+{
+    border-left: none;
+    border-bottom: none;
+    border-top: none;
+    border-right: none;
+    outline: none;
+    cursor: auto;
+    width: 390px;
+}
+#email
+{
+    border-left: none;
+    border-bottom: none;
+    border-top: none;
+    border-right: none;
+    outline: none;
+    cursor: auto;
+    width: 390px;
+}
+#flat
+{
+    border-left: none;
+    border-bottom: none;
+    border-top: none;
+    border-right: none;
+    outline: none;
+    cursor: auto;
+    width: 390px;
+}
+#pin
+{
+    border-left: none;
+    border-bottom: none;
+    border-top: none;
+    border-right: none;
+    outline: none;
+    cursor: auto;
+    width: 390px;
+}
+#phone
+{
+    border-left: none;
+    border-bottom: none;
+    border-top: none;
+    border-right: none;
+    outline: none;
+    cursor: auto;
+    width: 390px;
+}
+#mobile
+{
+    border-left: none;
+    border-bottom: none;
+    border-top: none;
+    border-right: none;
+    outline: none;
+    cursor: auto;
+    width: 390px;
+}

@@ -1,0 +1,56 @@
+body
+{
+    background: url(../images/mpg.jpg) no-repeat;
+    background-size: cover;
+}
+.btn1
+{
+    width: 200px;
+    background: none;
+    background-color: transparent;
+    border: 3px solid #4caf50;
+    padding: 10px;
+    font-size: 25px;
+    cursor: pointer;
+    margin: 12px 0;
+    margin-left: 11%;
+    color:red;
+    font-weight: bolder;
+}
+.btn2
+{
+    width: 200px;
+    background: none;
+    background-color: transparent;
+    border: 3px solid #4caf50;
+    padding: 10px;
+    font-size: 25px;
+    cursor: pointer;
+    margin: 12px 0;
+    margin-left: 11%;
+    color:red;
+    font-weight: bolder;
+}
+.btn1:hover
+{
+    background-image: radial-gradient(white,lightgreen,tan);
+}
+.btn2:hover
+{
+    background-image: radial-gradient(white,lightgreen,tan);
+}
+p
+{
+    margin-left: 11%;
+    margin-top: 10%;
+    font-size: 30px;
+    color: aquamarine;
+}
+#tc
+{
+    margin-left: 11%;
+}
+#ft
+{
+    font-size: 20px;
+}
