@@ -4,7 +4,7 @@ The Indian Railway Pantry Management is an intuitively initiated project, being 
 
 The project is all about the proper and reliable functioning of the chain of Indian Railway Pantries in a more systematic, organized and customer satisfying way. The model would be a dynamically working website that would provide the service of placing food orders, to the passengers who travel in a train within few taps or clicks via their smartphones, tabs, laptops, etc.
 
-*The sytem is made Using HTML, CSS, JavaScipt, PHP and MySQL*
+*The system is made Using HTML, CSS, JavaScipt, PHP and MySQL*
 
 ### Sample Screenshots
 
